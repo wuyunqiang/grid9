@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { View, StyleSheet, TouchableOpacity, Text, Animated } from 'react-native';
-import KrnBox9, { BoxRef, IBox } from '../src/index';
+import Grid9, { BoxRef, IBox } from '../src/index';
 import { ItemView } from '../src/type';
 const styles = StyleSheet.create({
     container: {
@@ -130,7 +130,7 @@ function Demo() {
     };
     return (
         <View style={styles.container}>
-            <KrnBox9 list={list} renderItem={renderItem} boxRef={boxRef} />
+            <Grid9 list={list} renderItem={renderItem} boxRef={boxRef} />
             <TouchableOpacity onPress={onClick}>
                 <View style={styles.btn}>
                     <Text style={styles.btnText}>抽奖</Text>

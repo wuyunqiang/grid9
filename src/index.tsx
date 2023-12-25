@@ -43,7 +43,7 @@ export type IProps = {
     renderItem: (props: ItemView) => JSX.Element;
     boxRef: any;
 };
-const Box = (props: IProps) => {
+const Grid9 = (props: IProps) => {
     const { list, boxStyle, renderItem, boxRef } = props;
     const { startAnimation, getList, stage } = useBoxAni();
     const listData = getList(list) as ItemView[];
@@ -66,4 +66,4 @@ const Box = (props: IProps) => {
     );
 };
 
-export default memo(Box);
+export default memo(Grid9);
