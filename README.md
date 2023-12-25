@@ -1,6 +1,38 @@
-# grid9
+# react-native-grid9
 react native grid9  draw a lottery
 
+```Javascript
+ api:
+
+ export interface BoxSetting {
+    circle: number; // 转的圈数
+    fastFrame: number; // 快速旋转的帧率
+    slowFrameArray: number[]; // 慢速旋转的帧率
+    jumpFlashArr: number[]; // 跳过闪烁动画的数据位置
+    lastStageAni?: (
+        params: AniCallBackParams & {
+            stopAnimation: () => void;
+        },
+    ) => void;
+    fastStageAni?: (params: AniCallBackParams) => void;
+    slowStageAni?: (params: AniCallBackParams) => void;
+}
+
+export type IStartParam = {
+    target: number;
+    boxSetting?: Partial<BoxSetting>;
+    aniDone?: () => void;
+    aniFail?: () => void;
+};
+
+export type List = { key: string | number; [index: string]: any }[];
+
+
+ start: (p: IStartParam) => void;
+ updateList: (list: List) => void
+
+
+```
 效果如下：
 ![all](https://github.com/wuyunqiang/react-native-grid9/blob/main/assets/all.gif)
 ![done](https://github.com/wuyunqiang/react-native-grid9/blob/main/assets/done.gif)
