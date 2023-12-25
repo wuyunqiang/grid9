@@ -1,28 +1,27 @@
 {
-    "name": "react-native-grid9",
-    "version": "1.0.0",
-    "main": "src/index.tsx",
-    "repository": "git@github.com:wuyunqiang/react-native-grid9.git",
-    "author": "wuyunqiang",
-    "license": "MIT",
-    "peerDependencies": {
-      "react": "*",
-      "react-native": "*"
-    },
-    "devDependencies": {
-      "@types/react": "^18.2.30",
-      "@types/react-native": "^0.72.5"
-    },
-    "files": [
-      "src"
-    ],
-    "homepage": "https://github.com/wuyunqiang/react-native-grid9",
-    "keywords": [
-      "grid9",
-      "draw",
-      "lottery",
-      "turntable",
-      "react native"
-    ]
-  }
-  
+  "name": "react-native-grid9",
+  "version": "1.0.1",
+  "main": "src/index.tsx",
+  "repository": "git@github.com:wuyunqiang/react-native-grid9.git",
+  "author": "wuyunqiang",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.30",
+    "@types/react-native": "^0.72.5"
+  },
+  "files": [
+    "src"
+  ],
+  "homepage": "https://github.com/wuyunqiang/react-native-grid9",
+  "keywords": [
+    "grid9",
+    "draw",
+    "lottery",
+    "turntable",
+    "react native"
+  ]
+}
