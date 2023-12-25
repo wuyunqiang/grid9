@@ -2,8 +2,8 @@
 react native grid9  draw a lottery
 
 效果如下：
-![all](./assets/all.gif)
-![done](./assets/done.gif)
+![all](https://github.com/wuyunqiang/react-native-grid9/blob/main/assets/all.gif)
+![done](https://github.com/wuyunqiang/react-native-grid9/blob/main/assets/done.gif)
 
 
 demo:
