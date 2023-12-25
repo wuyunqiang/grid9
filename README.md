@@ -29,7 +29,7 @@ export type List = { key: string | number; [index: string]: any }[];
 
 
  start: (p: IStartParam) => void;
- updateList: (list: List) => void
+ updateList: (list: List) => void;
 
 
 ```
