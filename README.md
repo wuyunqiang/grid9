@@ -5,9 +5,11 @@ react native 版本九宫格抽奖组件，支持Android&iOS <br>
 支持抽中跳过逻辑 <br>
 
 # 效果如图
-![1.gif](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4e38f344d3054bb7b5747d4f5ee8572a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=500&h=500&s=2048151&e=gif&f=253&b=f9f0fd)
+![1](https://github.com/wuyunqiang/react-native-grid9/assets/13480948/bbb7bc2d-e2c3-44db-9b66-9bb1e8d56c76)
 
-![2.gif](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4e07ec131f9b4c3eb5fa394203d2c372~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=500&h=500&s=2278266&e=gif&f=268&b=f9f0fd)
+
+![2](https://github.com/wuyunqiang/react-native-grid9/assets/13480948/757e83f6-5463-4c34-958a-cc6b2dffbbf0)
+
 # 使用示例
 ### 组件配置
 ```
