@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { View, StyleSheet, TouchableOpacity, Text, Animated } from 'react-native';
+import { View, StyleSheet, TouchableOpacity, Text, Animated, Alert } from 'react-native';
 import Grid9, { BoxRef, IBox } from '../src/index';
 import { ItemView } from '../src/type';
 const styles = StyleSheet.create({
@@ -111,9 +111,11 @@ function Demo() {
         boxRef.current.start({
             target: 3,
             aniDone: () => {
+                Alert.alert('done')
                 console.log('test done');
             },
             aniFail: () => {
+                Alert.alert('error')
                 console.log('test error');
             },
             boxSetting: {
